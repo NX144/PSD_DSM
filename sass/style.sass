@@ -1,0 +1,404 @@
+*
+    box-sizing: border-box
+header
+    background: url('../image/header/main_image.jpg') center (center / cover) no-repeat
+    height: 750px
+.container
+    width: 1440px
+    margin: 0 auto
+.logo
+    padding-top: 50px
+    float: left
+nav
+    display: inline-block
+    margin-left: 320px
+    margin-top: 60px
+.main
+    margin: 0
+    padding: 0
+    display: flex
+    justify-content: space-between
+    list-style-type: none
+    &_item
+        padding-right: 49px
+        &:last-child
+            padding-right: 0
+        a
+            color: #ffffff
+            font-family: "Raleway - Semi Bold", sans-serif
+            font-size: 15px
+            font-weight: 400
+            text-decoration: none
+            transition: 0.3s all
+            &:hover
+                color: #061e37
+.sign_up
+    //Style for button
+    margin-top: 53px
+    width: 80px
+    height: 25px
+    border-radius: 2px
+    border: 1px solid #fff
+    background: none
+    float: right
+    outline: none
+    //Style for text
+    color: #ffffff
+    font-family: 'Raleway', sans-serif
+    font-size: 12px
+    font-weight: 400
+    transition: 0.3s all
+    &:hover
+        color: #061e37
+        background-color: #fff 
+    &:active
+        border: 1px solid #061e37
+.content
+    position: relative
+    width: 100%
+    height: 320px
+    margin-top: 167px
+    &_block
+        display: inline-block
+        width: 638px
+        height: 100%
+        &_name
+            width: 471px
+            color: #fff
+            font-family: "Raleway - Extra Bold", sans-serif
+            font-size: 55px
+            font-weight: bold
+            line-height: 65px
+            text-transform: uppercase
+        &_descr
+            width: 637px
+            margin-top: 15px
+            color: #ffffff
+            font-family: Raleway, sans-serif
+            font-size: 16px
+            font-weight: 400
+            line-height: 30px
+        &_btn
+            margin-top: 30px
+            width: 348px
+            height: 55px
+            &_buy
+                width: 150px
+                height: 55px
+                float: left
+                box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15)
+                border-radius: 5px
+                background-color: #061e37
+                border: none
+                outline: none
+                //Style for text
+                color: #ffffff
+                font-family: Roboto, sans-serif
+                font-size: 15px
+                font-weight: 400
+                text-transform: uppercase
+                transition: 0.3s all
+                &:hover
+                    border-bottom: 3px solid #061e37 
+                    background-color: #fff
+                    color: #061e37
+                &:active
+                    border: none
+            &_free
+                width: 160px
+                height: 55px
+                float: right
+                box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15)
+                border-radius: 5px
+                background-color: #ffffff
+                border: none
+                outline: none
+                //Style for text
+                color: #061e37
+                font-family: Raleway, sans-serif
+                font-size: 15px
+                font-weight: 700
+                text-transform: uppercase
+                transition: 0.3s all
+                &:hover
+                    border-bottom: 3px solid #ffffff
+                    background-color: #061e37 
+                    color: #fff
+                &:active
+                    border: none
+    &_video
+        width: 600px
+        height: 320px
+        border-radius: 5px
+        background: url('../image/header/header_video.jpg') center (center / cover) no-repeat
+        float: right
+        border: 1px solid #061e37
+        box-shadow: 0 7px 10px rgba(0, 0.1, 0.1, 0.2)
+        text-align: center
+        &_btn
+            display: block
+            width: 60px
+            height: 60px
+            margin-left: 270px
+            margin-top: 115px
+            padding-left: 25px
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)
+            border: none
+            border-radius: 5px
+            background-color: #061e37
+            outline: none
+            transition: 0.3s all
+            &:hover
+                box-shadow: 0 7px 11px rgba(0, 0.1, 0.1, 0.3)
+            &:active
+                box-shadow: 0 7px 14px rgba(0, 0.2, 0.2, 0.4)
+            &_triangle
+                display: block
+                width: 10px
+                height: 12px
+                border: 6px solid transparent 
+                border-left: 10px solid #fff
+        &_descr
+            display: inline-block
+            padding-top: 20px
+            color: #061e37
+            font-family: Raleway, sans-serif
+            font-size: 12px
+            font-weight: 700
+            text-transform: uppercase
+            transition: 0.2s all
+            &:hover
+                border-bottom: 2px solid #061e37
+            &:active
+                border-bottom: 1px solid #061e37
+.name_section
+    display: flex
+    justify-content: center
+    color: #061e37
+    font-family: "Raleway - Semi Bold", sans-serif
+    font-size: 45px
+    font-weight: 400
+.descr_section
+    color: #b0bec5
+    font-family: Raleway, sans-serif
+    font-size: 15px
+    font-weight: 400
+    line-height: 25px
+.manage_tool
+    position: relative
+    width: 100%
+    height: 801px
+    background: #fff
+    text-align: center
+    &_name
+        padding-top: 99px
+    &_text
+        display: flex
+        justify-content: center
+        margin-top: 10px
+        color: #b0bec5
+        font-family: "Raleway - Semi Bold", sans-serif
+        font-size: 25px
+        font-weight: 400
+    &_descr
+        padding-top: 10px
+        width: 530px
+        height: 61px
+        margin: 0 auto
+        text-align: center
+    &_block
+        width: 100%
+        height: 218px
+        margin-top: 102px
+        &_elements
+            width: 344px
+            height: 204px
+            display: inline-block
+            margin-right: 200px
+            text-align: center
+            &:last-child
+                margin-right: 0
+            .name
+                color: #061e37
+                font-family: "Raleway - Semi Bold", sans-serif
+                font-size: 20px
+                font-weight: 400
+                line-height: 25px
+                margin-top: 35px
+            .descr
+                width: 340px
+                height: 54px
+                color: #78909c
+                font-family: Raleway, sans-serif
+                font-size: 15px
+                font-weight: 400
+                line-height: 20px
+                margin-top: 15px
+    &_btn
+        //Style button
+        width: 150px
+        height: 55px
+        margin-top: 75px
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15)
+        border-radius: 5px
+        background-color: #1de9b6
+        border: none
+        outline: none
+        //Style button text
+        color: #ffffff
+        font-family: Raleway, sans-serif
+        font-size: 15px
+        font-weight: 700
+        text-transform: uppercase
+        transition: 0.3s all
+        &:hover
+            background-color: #fff
+            color: #1de9b6
+            border: 2px solid #1de9b6
+        &:active
+            border: none
+            
+.proggres
+    position: relative
+    width: 100%
+    height: 150px
+    &_block
+        width: 100%
+        margin: 0
+        padding: 0
+        display: flex
+        list-style-type: none
+        &_blue
+            background-color: #80d8ff
+            &_img
+                &_element
+        &_dark_blue
+            background-color: #82b1ff
+            &_img
+                &_element
+        &_dark_purple
+            background-color: #b388ff
+            &_img
+                &_element
+        &_purple
+            background-color: #ea80fc
+            &_img
+                &_element
+        .general_style
+            &_img
+                width: 60px
+                height: 60px
+                background-color: #ffffff
+                margin-left: 103px
+                display: inline-block
+                text-align: center
+                border-radius: 100%
+                &_element
+                    padding-top: 19px
+            &_descr
+                display: inline-block
+                margin-left: 23px
+                color: #ffffff
+                font-family: "Raleway - Extra Bold", sans-serif
+                font-size: 20px
+                font-weight: 400
+        .elements
+            width: 100%
+            height: 150px
+            display: flex
+            align-items: center
+.services_container
+    width: 750px
+    margin: 0 auto
+.services
+    position: relative
+    width: 100%
+    min-height: 870px
+    background: #fff
+    &_name
+        padding-top: 100px
+    &_descr
+        width: 555px
+        height: 47px
+        margin: 0 auto
+        margin-top: 10px
+        text-align: center
+    &_block
+        width: 800px
+        min-height: 536px
+        border-radius: 5px
+        background-color: #ffffff
+        margin: 0 auto
+        margin-top: 48px
+        &_elements
+            width: 100%
+            max-height: 240px
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.13)
+            border-radius: 5px
+            background-color: #fff
+            margin-top: 20px
+            &_name
+                position: relative
+                height: 50px
+                &_ico_descr
+                    position: absolute
+                    width: 125px
+                    height: 12px
+                    display: inline-block
+                    top: 50%
+                    transform: translateY(-50%)
+                    &_img
+                        display: inline-block
+                        float: left
+                    &_text
+                        color: #061e37
+                        font-family: Raleway, sans-serif
+                        font-size: 15px
+                        font-weight: 700
+                        text-transform: uppercase
+                        float: right
+                .inbox 
+                    width: 89px
+                .team 
+                    width: 84px
+                .settings 
+                    width: 115px
+                .feed 
+                    width: 78px
+                &_triangle
+                    padding: 0
+                    margin: 0
+                    position: absolute
+                    top: 50%
+                    transform: translateY(-50%)
+                    right: 0
+                    width: 10px
+                    height: 12px
+                    border: none
+                    outline: none
+                    background: #fff
+                    &_btn
+                        display: inline-block
+                        border: 5px solid transparent
+                        border-top: 6px solid #061e37
+            &_descr
+                display: none
+                width: 100%
+                height: 179px
+                margin-top: 11px
+                &_img
+                    width: 250px
+                    height: 155px
+                    display: inline-block
+                    float: left
+                &_text
+                    width: 467px
+                    height: 139px
+                    display: inline-block
+                    color: #061e37
+                    font-family: Raleway
+                    font-size: 15px
+                    font-weight: 400
+                    line-height: 23px
+                    float: right
+                    padding-top: 8px
